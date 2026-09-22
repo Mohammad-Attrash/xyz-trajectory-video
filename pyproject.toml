@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xyz-trajectory-video"
+version = "1.0.0"
+description = "Create dual-view, ball-and-stick MP4 videos from multi-frame XYZ trajectories."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Mohammad Attrash"}
+]
+dependencies = [
+  "numpy>=1.24",
+  "matplotlib>=3.8",
+  "imageio>=2.31",
+  "imageio-ffmpeg>=0.4.9"
+]
+keywords = [
+  "XYZ trajectory",
+  "molecular dynamics",
+  "scientific visualization",
+  "ball-and-stick",
+  "MP4 video",
+  "CP2K"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Visualization"
+]
+
+[project.urls]
+Homepage = "https://github.com/Mohammad-Attrash/xyz-trajectory-video"
+Repository = "https://github.com/Mohammad-Attrash/xyz-trajectory-video"
+Issues = "https://github.com/Mohammad-Attrash/xyz-trajectory-video/issues"
+
+[project.scripts]
+xyz-to-video = "xyz_to_video:main"
+
+[tool.setuptools]
+py-modules = ["xyz_to_video"]

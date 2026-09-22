@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release."
+title: "XYZ Trajectory Video Generator"
+type: software
+authors:
+  - family-names: "Attrash"
+    given-names: "Mohammad"
+version: 1.0.0
+date-released: 2026-09-22
+license: MIT
+repository-code: "https://github.com/Mohammad-Attrash/xyz-trajectory-video"
+url: "https://github.com/Mohammad-Attrash/xyz-trajectory-video"
+abstract: >-
+  A Python program for creating dual-view, ball-and-stick MP4 videos
+  from multi-frame XYZ molecular-dynamics trajectories. The program
+  renders smooth three-dimensional atoms, atom-colored bonds, fixed
+  trajectory-wide coordinate limits, exact top and side views, and
+  independently adjustable side-view magnification.
+keywords:
+  - XYZ trajectory
+  - molecular dynamics
+  - scientific visualization
+  - ball-and-stick
+  - CP2K
+  - MP4
+# Add the Zenodo DOI after the first archived GitHub release.
+# doi: "10.5281/zenodo.XXXXXXX"
+preferred-citation:
+  type: software
+  title: "XYZ Trajectory Video Generator"
+  authors:
+    - family-names: "Attrash"
+      given-names: "Mohammad"
+  version: 1.0.0
+  date-released: 2026-09-22
+  publisher:
+    name: "Zenodo"
+  # doi: "10.5281/zenodo.XXXXXXX"
