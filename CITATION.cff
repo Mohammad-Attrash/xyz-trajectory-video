@@ -24,7 +24,7 @@ keywords:
   - CP2K
   - MP4
 # Add the Zenodo DOI after the first archived GitHub release.
-# doi: "10.5281/zenodo.XXXXXXX"
+# doi: "10.5281/zenodo.23017550"
 preferred-citation:
   type: software
   title: "XYZ Trajectory Video Generator"
@@ -35,4 +35,4 @@ preferred-citation:
   date-released: 2026-09-22
   publisher:
     name: "Zenodo"
-  # doi: "10.5281/zenodo.XXXXXXX"
+  # doi: "10.5281/zenodo.23017550"
