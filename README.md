@@ -17,9 +17,6 @@ The program renders:
 
 Add a screenshot or animated preview here after creating the repository:
 
-```markdown
-![Example dual-view trajectory](docs/example_frame.png)
-```
 
 ## Requirements
 
