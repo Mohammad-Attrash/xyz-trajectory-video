@@ -98,7 +98,7 @@ def xyz_to_video(xyz_file: str | Path) -> Path:
     main_title_font_size = 17
 
     # Values below 1 make only the side-view model smaller.
-    side_view_zoom = 0.65
+    side_view_zoom = 1.05
 
     # Equal-sized panels with almost no central gap.
     top_axis_position = [0.005, 0.06, 0.495, 0.86]
